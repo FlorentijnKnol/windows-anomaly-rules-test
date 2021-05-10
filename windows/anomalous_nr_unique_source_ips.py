@@ -1,8 +1,8 @@
 from python_rules import Rule
 
 
-class AnomalousNrOfMessages(Rule):
-    id = "c6c5990e-61df-455f-9638-34100263b028"
+class AnomalousNrOfUniqueSourceIPS(Rule):
+    id = "3209dc73-7d73-4bf6-9b4b-7b50cbf59f3a"
     title = "Anomalous nr of unique source ips"
     description = "Detects an anomalous number of unique source ips observed within the span of six hours"
     author = "Florentijn Knol"
