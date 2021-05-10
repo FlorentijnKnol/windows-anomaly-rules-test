@@ -11,4 +11,4 @@ class AnomalousNrOfMessages(Rule):
 
 
     def rule(self, e):
-        return self.stats.windowed("6H").is_anomaly(metric='n_unique', key='source.ip', threshold=2.0)
+        return self.stats.windowed("6H").is_anomaly(metric='n_unique', key='source.ip', threshold=1.5)
